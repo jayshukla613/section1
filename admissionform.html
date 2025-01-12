@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission form</title>
+</head>
+
+<body>
+    <h1>Student Admission Form</h1>
+    <form>
+       
+        <label>student name</label>
+        <input type="text" required minlength="3">
+        <br>
+        <br>
+
+        <label>Student Email</label>
+        <input type="email" required minlength="8">
+        <br><br>
+
+        <input type="date">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <br>
+        <label>Select course</label>
+        <select>
+            <option></option>
+            <option>Mern</option>
+            <option>computer science</option>
+            <option>math</option>
+            <option>english</option>
+            <option value=""></option>
+        </select>
+        <br><br>
+        <label>Select College</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option>national college</option>
+            <option>srms</option>
+            <option>muit</option>
+            <option>bbd</option>
+            <option>hrs</option>
+        </datalist>
+        <br><br>
+        <label for="image">upload image</label>
+        <input hidden type="file" id="image" accept="image">
+        <br><br>
+        <input type="checkbox" id="term">
+        <label for="term">Accept term and condiontion</label>
+        <br>
+        <input type="checkbox" id="news">
+        <label for="news"> Subscribe to newsletter</label>
+        <br><br>
+        <details>
+            <summary>termms and condition</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat mollitia vero molestias id voluptatem autem velit fugit veniam inventore dignissimos, quis, doloribus asperiores doloremque ab repudiandae quia amet cum quibusdam fugiat praesentium distinctio accusantium. Asperiores libero consequuntur culpa magnam sint harum repudiandae, commodi, omnis animi adipisci magni id deserunt aperiam fugiat numquam veritatis, unde quis. Aliquid esse asperiores exercitationem officia magni pariatur architecto quidem quibusdam amet. Minima nulla animi impedit nemo quo sit, culpa debitis modi, corrupti ut explicabo aliquam veniam laudantium autem illo! Debitis quis ex quidem inventore laboriosam pariatur eum illo repellendus asperiores sunt natus, vero repudiandae corrupti!</p>
+                
+            
+        </details>
+
+        <br><br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+</body>
+
+</html>
