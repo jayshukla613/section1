@@ -1,0 +1,17 @@
+.my-btn2{
+    background-color: #000000;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white;
+}
+button{
+    color: yellow;
+    background-color: black;
+}
+.para1{
+    color: red;
+}
+.para2{
+    color: goldenrod;
+}
