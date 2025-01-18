@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-form</title>
+    <style>
+         
+        *{
+            font-family: georgia;
+        }
+        .card {
+            border: 1px solid black;
+            width: 25%;
+            border-radius: 20px;
+            padding: 5px;
+            box-shadow: 3px 2px 5px 3px #000000da;
+            box-sizing: border-box;
+            background-color: white;
+
+        }
+
+        body {
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+
+            /* background-color: crimson; */
+            /* background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.582),rgba(255, 0, 0, 0.774)); */
+            /* background-image: url(https://th.bing.com/th/id/OIP.R092KTcDDM0qJpq3b0s7zgHaEK?rs=1&pid=ImgDetMain); */
+            background-size: cover;
+            background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.76),rgb(15, 15, 15)),
+                url(https://th.bing.com/th/id/OIP.R092KTcDDM0qJpq3b0s7zgHaEK?rs=1&pid=ImgDetMain)
+        }   
+
+        #h1 {
+            text-align: center;
+            font-family: Roboto;
+            margin: 30px 0;
+        }
+
+        #submit {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            background-color: rgb(231, 6, 51);
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 50px;
+            cursor: pointer;
+
+
+        }
+         #username{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        #email{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 1px;
+            box-sizing: border-box;
+
+        }
+        #number
+        {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 1px;
+            box-sizing: border-box;
+
+        }
+        #password{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 1px;
+            box-sizing: border-box;
+
+        }
+         #link{
+            color: crimson;
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+         #a{
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        
+       
+    </style>
+</head>
+
+<body>
+   
+    <div class="card">
+        <h1 id="h1">Signup Form</h1>
+
+        <form class="form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter user-name">
+            
+            <label for="email">Enter Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email-id">
+            
+            <label for="number">Enter No:</label>
+            <input type="number" id="number" name="number" placeholder="Enter your no">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            
+            <label for="password1">Confirm password:</label>
+            <input type="password" id="password1" name="password1" placeholder="confirm password">
+            <br>
+            <button type="submit" id="submit">Submit</button>
+            <br>
+            <a href="" id="a">Already have a Account?</a>
+
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
