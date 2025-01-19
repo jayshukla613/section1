@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-gray-300 to-violet-200">
+    <div class="bg-white shadow-4xl  grid grid-cols-2 h-[450px] w-[600px] mt-40 ml-[400px] rounded-lg">
+        <div class="   flex justify-center items-starth-50 w-[300px] ">
+            <img class=" h-[180px] mt-[40px] w-[150px]"
+                src="https://th.bing.com/th/id/OIP.hJ0AUICuOzE87EfSdElebgHaJP?w=156&h=195&c=7&r=0&o=5&pid=1.7" alt="">
+
+
+        </div>
+        <div class=" mt-4">
+            <button class="bg-black text-white rounded px-2   mt-2 ">Free Shoping</button>
+            <h1 class="text-2xl text-black font-bold mt-2 ">Razer kraken kitty Edt Gaming headset Quartz</h1>
+            <h2 class="line-through mt-2">1 599,-</h2>
+            <h3 class="font-bold text-4xl mt-4">799,-</h3>
+            <p class="text-light mt-2">this Offer is Valid until April 3 or long as stock losts!</p>
+            <button class="bg-blue-600 text-white px-[80px] px-16 py-2 rounded text-center  mt-4">Add to cart</button>
+            <h4 class="font-bold pt-4 pb-4">50+pcs. in stock.</h4>
+            <button class="text-black text-align-center  rounded border-2 border-gray-500 font-medium py-2	px-4">Add to
+                cart</button>
+            <button class="text-black text-align-center  rounded border-2 border-gray-500 font-medium py-2	px-4">Add to
+                wishlist</button>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
